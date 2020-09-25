@@ -1,0 +1,20 @@
+h1::before{
+    /* Must include the 'content' property when using :before or :after pseduo selectors */
+    content: 'Content BEFORE element';
+    /* display: block; */
+  }
+  
+  h1::after{
+    content: 'Content AFTER element';
+    /* display: block; */
+  }
+  
+  .asterisk::after {
+    content: "*";
+  }
+  
+  /* :before and :after cannot be used on elements with self closing tags */
+  input::after {
+    content: 'This is an input';
+  }
+  

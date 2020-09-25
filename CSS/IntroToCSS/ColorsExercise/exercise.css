@@ -1,0 +1,23 @@
+/* Heading One */
+h1{ 
+    color: rgba(114, 192, 37, 0.5);
+}
+
+/* Heading two */
+h2 {
+    color: rgb(70, 80, 255);
+}
+
+/* Paragraph */
+p {
+    color: aquamarine;
+}
+
+/* Label */
+label {
+    color: #05BBFF;
+}
+
+h6 {
+    color: black;
+}

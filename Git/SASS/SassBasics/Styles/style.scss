@@ -1,0 +1,36 @@
+// This is a comment SASS
+
+@import "variables";
+
+// SASS Variable 
+$color1: #4cbb17;
+
+//CSS Variable 
+// --color: #4cbb17;
+//var(--color1)
+
+// SASS Mixin
+@mixin flex ($position) {
+    display: flex;
+    justify-content: $position;
+    align-items: $position;
+}
+
+.first {
+    background-color: blue;
+    font-weight: bold;
+    h1 {
+        color: #fff;
+        &:hover {
+            color: $color1;
+        }
+    }
+    p {
+        color: $color1;
+        border: 3px solid $color1;
+    }
+}
+
+.second {
+    @include flex (flex-end);
+}

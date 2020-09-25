@@ -1,0 +1,3 @@
+CHROME DEV TOOLS
+
+3 dots, more tools, developer tools or option command I or f12

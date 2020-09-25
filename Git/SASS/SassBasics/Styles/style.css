@@ -1,0 +1,18 @@
+.first {
+  background-color: blue;
+  font-weight: bold;
+}
+
+.first h1 {
+  color: #fff;
+}
+
+.first h1:hover {
+  color: #4cbb17;
+}
+
+.first p {
+  color: #4cbb17;
+  border: 3px solid #4cbb17;
+}
+/*# sourceMappingURL=style.css.map */

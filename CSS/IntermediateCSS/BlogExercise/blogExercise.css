@@ -1,0 +1,39 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* This would also work to set font for all text */
+/* body {
+    font-family: 'Lato', sans-serif;
+} */
+
+h2 {
+    letter-spacing: 3.2px;
+    font-weight: 700; /* or bold*/
+    font-size: 48px;
+    color: #3d3d3d;
+}
+
+p {
+    text-align: right;
+}
+
+.main {
+    width: 80%;
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+.middle {
+    border-top: 5px solid #bdc3c7;
+    border-bottom: 5px solid #bdc3c7;
+    padding: 20px 0;
+}
+
+.date {
+    color: #3498DB;
+    text-transform: uppercase;
+    float: right;
+}

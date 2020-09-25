@@ -1,0 +1,19 @@
+/* This is a CSS comment */
+/* Command + / will also work in CSS to create a comment */
+
+selector {
+    property: value;
+    secondProperty: value;
+}
+
+/* This will make all text in paragraph elements blue */
+p {
+    color: blue;
+    font-size: 14px;
+}
+
+/* This will make all divs have a baground color of blue and a red border */
+div {
+    background-color: blue;
+    border: red;
+}

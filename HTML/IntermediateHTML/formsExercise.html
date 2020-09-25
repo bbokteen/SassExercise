@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Customer Experience Survey</h1>
+    <form>
+        <label>Store Number</label>
+        <select name="storeNumber" id="storeNumber">
+            <option value="3109">3109</option>
+            <option value="2201">2421</option>
+            <option value="1307">5357</option>
+        </select>
+
+        <!-- fieldset input -->
+        <fieldset>
+            <legend>When you visited:</legend>
+            <!-- date input -->
+            <label for="dateVisited">Date Visited</label>
+            <input type="date">
+            <!-- time input -->
+            <label for="dateVisited">Time:</label>
+            <input type="time" id="timeVisited">
+        </fieldset>
+        <div>
+            <!-- text input -->
+        <label for="">First Name:</label>
+        <input type="text" placeholder="John">
+        <label for="">Last Name:</label>
+        <input type="text" placeholder="Doe">
+        </div>
+        <br>
+        <!-- email input -->
+        <label for="">Email:</label>
+        <input type="text" placeholder="your email">
+        <br>
+        <!-- radio input -->
+        <label for="userRadio">Male</label>
+        <input name="gender" type="radio">
+        <label for="userRadio">Female</label>
+        <input name="gender" type="radio">
+        <label for="userRadio">Other</label>
+        <input name="gender" type="radio">
+        <br>
+        <!-- text input -->
+        <label for="">Tell us about your experience:</label>
+        <br>
+        <textarea name="experience" id="experience" cols="20" rows="2"></textarea>
+        <br>
+        <label for="">Times visited in the last month:</label>
+        <input type="number" placeholder="0">
+        <br>
+        <label for="usercheckbox">Please check the box if you would be willing to be contacted about your experience</label>
+        <input type="checkbox" id="usercheckbox">
+        <br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
